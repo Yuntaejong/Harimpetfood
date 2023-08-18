@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* common.css */
+
+header {
+  background: #4b4b4b;
+}
+
+/* 장바구니, 전체메뉴 아이콘 숨기기 */
+i.fa-shopping-cart, label.fa-bars,fieldset label span, #toggle, legend,.gnb .fa-angle-down, .close_btn {
+  display:none;
+}
+
+/* 메인영역 서식 */
+main .m_slide > h2 {display:none;}
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* 스와이퍼 슬라이드 서식 */
+.swiper-pagination.swiper-pagination-bullet {
+  width: 100px !important; height: 8px !important;
+  border-radius: none !important ;
+}
+.swiper-pagination.swiper-pagination-bullet-active {
+  background: beige !important;
+}
+
+/* 메인 공통서식 */
+
+/* 버튼 공통서식 */
+.button {
+  font-size: 16px;
+  background: #fff;
+  padding:6px 30px;
+  border:1px solid #ccc;
+  transition: .5s;
+}
+.button:hover {
+  color:#fff;
+  background: #333;
+}
+
+/* 컨트롤 버튼 서식 */
+
+/* 내꺼 */
+/* .c_btn {
+  display:flex; justify-content: center;
+  padding-top:20px;
+}
+.c_btn li {
+  border: 1px solid #333;
+  border-radius: 50%;
+  background: #fff;
+  width: 20px;height: 20px;
+  margin: 0 10px;
+}
+.c_btn li:first-child {
+  background: #2d2d2d;
+} */
+
+/* 강사님 */
+.c_btn {
+  margin-top: 50px;
+  text-align: center;
+}
+.c_btn > li {
+  margin: 0 3px;
+  width: 15px; height: 15px;
+  border-radius: 50%;
+  background: #ccc;
+  display:inline-block;
+}
+.on {
+  background: #333 !important;
+}
+/* 푸터영역 서식 */
+footer {
+  background: #464545;
+}
+/* 푸터상단 서식 */
+.f_top {
+  background: #989898;
+  height: 60px;
+}
+.f_nav {
+  width: 1200px;
+  margin:0px auto;
+  display:flex;
+  justify-content: space-evenly;
+}
+.f_nav > ul {
+  display:flex;
+}
+.f_nav > ul li {
+  margin:0 15px;
+}
+.f_nav a {
+  color:#fff;
+  line-height: 60px;
+}
+.f_nav dl{
+  display:flex;
+  justify-content: space-evenly;
+  line-height: 60px;
+  color:#fff;
+}
+.f_nav dl dt {font-weight: 500;}
+.f_nav dl dd {padding-left:50px;}
+.f_nav dl .date {padding-left:100px;}
+
+/* 푸터하단 서식 */
+.f_bottom, address {
+  width: 1200px;
+  margin:0 auto;
+}
+.f_bottom {
+  display:flex;
+  justify-content:space-around;
+  color:#cccccc;
+  padding:20px 0;
+}
+.f_bottom dl {line-height: 40px;}
+.f_bottom dt {font-size: 20px;}
+.f_bottom dd {font-size: 18px;}
+.f_bottom .tel {
+  color:#fff;
+  font-size: 34px;
+  font-weight: bold;
+}
+.sns {
+  display:flex;
+  position: relative;
+  top:30px;
+}
+.sns li {
+  line-height: 60px;
+  margin: 0 10px;
+}
+.sns a {
+  font-size: 24px;
+  color:#fff;
+}
+.sns li span {display:none;}
+.f_bottom select {
+  width:200px;
+  height:40px;
+  position: relative;
+  top:40px;
+  border-radius: 5px;
+  text-align: center;
+}
+address {
+  font-style: normal;
+  border-top:1px solid #ccc;
+  color:#fff;
+  padding-top:20px;
+  line-height:160%;
+  color:#ccc;
+}
+.a_info, .a_pay {
+  display:inline-block;
+  padding-bottom: 20px;}
+.a_info {
+  width: 630px;
+  margin-right: 30px;
+}
+.a_pay {width: 300px;}
+.a_pay span {
+  display:block; 
+  font-size: 16px;
+  font-weight: bold;
+}
