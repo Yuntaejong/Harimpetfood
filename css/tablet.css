@@ -137,6 +137,7 @@
     position : relative;
   }
   .f_bottom dl {float:left;}
+  .f_bottom dl:nth-of-type(2) {margin-left:40px;}
   .f_bottom dt {font-size: 1.2rem;}
   .f_bottom dd {font-size: 1rem;}
   dd.tel{
@@ -144,15 +145,15 @@
   }
   .f_bottom select {
     position: absolute;
-    top: 30px; right: 10px;
+    top: 30px; right: 30px;
   }
   .sns {
     position: absolute;
-    top: 60px; right: 10px;
+    top: 60px; right: 30px;
   }
   address {
     margin-top:130px;
-    height:300px;
+    height:100px;
     padding:10px 2%;
     box-sizing: border-box;
   }
