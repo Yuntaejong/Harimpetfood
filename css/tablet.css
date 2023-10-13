@@ -153,8 +153,9 @@
   }
   address {
     margin-top:130px;
-    height:100px;
+    height:150px;
     padding:10px 2%;
     box-sizing: border-box;
   }
+  .a_pay {padding-bottom: 0;}
 }
